@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    font-family: var(--qm-font);
+    color: var(--qm-text);
+    background:
+        radial-gradient(circle at top left, rgba(66, 192, 152, 0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(23, 141, 91, 0.08), transparent 22%),
+        linear-gradient(180deg, #f9fcfb 0%, var(--qm-bg) 100%);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+    line-height: 1.7;
+    color: var(--qm-text-soft);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

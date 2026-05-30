@@ -1,30 +1,246 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="css/variables.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/layout.css">
-<link rel="stylesheet" href="css/pages/home.css">
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QontrolMed</title>
-    <link rel="stylesheet" href="style.css">
+    <title>QontrolMed | Gestion y seguridad para entornos sanitarios</title>
+    <meta
+        name="description"
+        content="QontrolMed presenta una plataforma para ordenar informacion tecnica, mantenimiento y seguridad operativa en entornos sanitarios."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages/home.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="shell site-header__inner">
+            <a class="brand" href="index.html" aria-label="Ir a la portada de QontrolMed">
+                <img class="brand__logo" src="assets/img/logo.png" alt="Logotipo de QontrolMed">
+            </a>
 
-    <div class="contenedor">
-        <img src="assets/img/logo.png" alt="QontrolMed" class="logo">
-       
-        <h1>Web en construcción</h1>
+            <nav class="site-nav" aria-label="Navegacion principal">
+                <a href="#producto">Producto</a>
+                <a href="#solucion">Solucion</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
 
-        <p>
-            Estamos preparando el sitio web.
-        </p>
+            <a class="btn btn--primary site-header__cta" href="mailto:info@qontrolmed.es?subject=Consulta%20sobre%20QontrolMed">
+                Solicitar informacion
+            </a>
+        </div>
+    </header>
 
-        <a href="mailto:info@qontrolmed.es">
-            info@qontrolmed.es
-        </a>
-    </div>
+    <main>
+        <section class="hero">
+            <div class="shell hero__grid">
+                <div class="hero__content">
+                    <p class="eyebrow">Plataforma para entorno sanitario</p>
+                    <h1>
+                        Informacion tecnica, control operativo y trazabilidad
+                        en una sola capa de trabajo.
+                    </h1>
+                    <p class="hero__lead">
+                        QontrolMed nace para presentar de forma clara la informacion
+                        relevante sobre equipamiento, mantenimiento, seguridad y
+                        seguimiento documental en areas criticas sanitarias.
+                    </p>
 
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#contacto">Hablar por email</a>
+                        <a class="btn btn--ghost" href="noticias.html">Ver actualidad</a>
+                    </div>
+
+                    <dl class="hero__metrics" aria-label="Resumen de enfoque de QontrolMed">
+                        <div>
+                            <dt>Enfoque</dt>
+                            <dd>Sanitario y tecnico</dd>
+                        </div>
+                        <div>
+                            <dt>Objetivo</dt>
+                            <dd>Orden y visibilidad</dd>
+                        </div>
+                        <div>
+                            <dt>Canal</dt>
+                            <dd>Contacto directo</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <div class="hero__panel">
+                    <div class="hero-card hero-card--primary">
+                        <p class="hero-card__label">Propuesta</p>
+                        <p class="hero-card__title">Sobriedad, criterio tecnico y lectura inmediata.</p>
+                        <p class="hero-card__copy">
+                            Una presencia digital pensada para transmitir confianza,
+                            conocimiento del sector y capacidad de acompanar procesos
+                            clinicos con rigor.
+                        </p>
+                    </div>
+
+                    <div class="hero-card hero-card--image">
+                        <img src="assets/img/seguridad_electrica.png" alt="Equipo tecnico en entorno sanitario">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="producto">
+            <div class="shell section-heading">
+                <p class="eyebrow">Producto</p>
+                <h2>Una presentacion clara para una solucion que debe inspirar confianza.</h2>
+                <p>
+                    La web se centra en explicar que hace QontrolMed, en que contexto
+                    opera y por que su enfoque resulta util para organizaciones que
+                    necesitan control documental y tecnico sin ruido visual.
+                </p>
+            </div>
+
+            <div class="shell card-grid card-grid--three">
+                <article class="card">
+                    <h3>Informacion centralizada</h3>
+                    <p>
+                        Reunir documentacion, referencias tecnicas y criterios de
+                        seguimiento en una experiencia ordenada y facil de consultar.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Trazabilidad operativa</h3>
+                    <p>
+                        Dar visibilidad al estado de equipos, revisiones y datos
+                        relevantes para la toma de decisiones en entornos sensibles.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Comunicacion profesional</h3>
+                    <p>
+                        Explicar el producto con una voz sobria, tecnica y cercana,
+                        alineada con el ambito sanitario y sin artificios innecesarios.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--tinted" id="solucion">
+            <div class="shell split">
+                <div>
+                    <p class="eyebrow">Solucion</p>
+                    <h2>Una narrativa de producto pensada para crecer.</h2>
+                    <p>
+                        Esta primera version del sitio se apoya en bloques de contenido
+                        corporativo, noticias y contacto. La estructura queda lista
+                        para sumar mas adelante paginas de servicios, modulos, casos de
+                        uso o documentacion tecnica sin rehacer la base.
+                    </p>
+                </div>
+
+                <div class="stack">
+                    <article class="feature">
+                        <span class="feature__index">01</span>
+                        <div>
+                            <h3>Portada editorial</h3>
+                            <p>
+                                Mensaje principal contundente, secciones de valor y
+                                presencia visual limpia para situar la marca con
+                                criterio.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="feature">
+                        <span class="feature__index">02</span>
+                        <div>
+                            <h3>Noticias listas para publicar</h3>
+                            <p>
+                                Una pagina dedicada a novedades, avisos y publicaciones
+                                breves, preparada para ir colgando informacion sin
+                                complicar la estructura.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="feature">
+                        <span class="feature__index">03</span>
+                        <div>
+                            <h3>Contacto directo</h3>
+                            <p>
+                                Llamadas a la accion por correo para captar interes
+                                desde cualquier punto del recorrido.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="shell highlight">
+                <div class="highlight__content">
+                    <p class="eyebrow">Criterio visual</p>
+                    <h2>Profesional, artistica, moderna y sobria.</h2>
+                    <p>
+                        La composicion mezcla tipografia amplia, ritmo editorial,
+                        tarjetas limpias y contraste controlado. El resultado busca
+                        transmitir especializacion y calma, no apariencia generica.
+                    </p>
+                </div>
+
+                <div class="highlight__aside">
+                    <p>Sin florituras</p>
+                    <p>Con identidad</p>
+                    <p>Preparada para evolucionar</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--compact" id="contacto">
+            <div class="shell contact-callout">
+                <div>
+                    <p class="eyebrow">Contacto</p>
+                    <h2>Si quieres, el siguiente paso lo dejamos abierto por email.</h2>
+                    <p>
+                        Podemos usar este punto como canal principal de entrada
+                        mientras definimos el alcance funcional completo del producto
+                        y las futuras secciones de la web.
+                    </p>
+                </div>
+
+                <div class="contact-callout__actions">
+                    <a class="btn btn--primary btn--wide" href="mailto:info@qontrolmed.es?subject=Consulta%20sobre%20QontrolMed">
+                        info@qontrolmed.es
+                    </a>
+                    <a class="btn btn--ghost btn--wide" href="noticias.html">
+                        Ir a noticias
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="shell site-footer__inner">
+            <div>
+                <img class="site-footer__logo" src="assets/img/logo.png" alt="QontrolMed">
+                <p>Presencia digital para una solucion sanitaria con enfoque tecnico.</p>
+            </div>
+
+            <div class="site-footer__links">
+                <a href="#producto">Producto</a>
+                <a href="#solucion">Solucion</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="mailto:info@qontrolmed.es">info@qontrolmed.es</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
