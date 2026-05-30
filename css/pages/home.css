@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:
+        linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)),
+        url("../../assets/img/seguridad_electrica.png") center/cover no-repeat;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    text-align:center;
+}
+
+.contenedor{
+    padding:24px 28px;
+    background:rgba(15, 23, 42, 0.55);
+    border-radius:16px;
+    backdrop-filter:blur(4px);
+}
+
+.logo{
+    width:180px;
+    margin-bottom:30px;
+}
+
+h1{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+p{
+    opacity:0.8;
+}
+
+a{
+    color:#38bdf8;
+    text-decoration:none;
+}
