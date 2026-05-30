@@ -23,6 +23,16 @@ Con VS Code y Live Server:
 
 Sin extensiones, tambien sirve abrir los HTML directamente en navegador.
 
+## Plan de trabajo
+
+1. Ordenar carpetas y estilos.
+2. Dejar una landing corporativa bien cerrada.
+3. Preparar futuras paginas como `servicios.html`, `contacto.html` y `sobre-qontrolmed.html`.
+4. Valorar mas adelante una migracion a Astro o Vite si el sitio crece.
+
+Por ahora tiene sentido mantener HTML + CSS sin frameworks para ir rapido,
+con menos complejidad y una base facil de mantener.
+
 ## Siguiente fase recomendable
 
 - Definir mensajes finales del producto.
