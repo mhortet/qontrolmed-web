@@ -1,66 +1,43 @@
 # Branding QontrolMed
 
-## Direccion general
 
-La presencia visual de QontrolMed debe transmitir:
+## Colores
 
-- criterio tecnico
-- serenidad
-- confianza profesional
-- especializacion sanitaria
-- modernidad sobria
-
-No buscamos una web decorativa ni agresiva. El tono debe sentirse limpio,
-preciso y contemporaneo, con una composicion elegante y contenida.
-
-## Colores base
-
-```css
---qm-primary: #178d5b;
---qm-primary-dark: #24564c;
+--qm-primary:  #178D5B;
+--qm-primary-dark: #24564C;
 --qm-primary-light: #42c098;
---qm-secondary: #7cb8a5;
+--qm-secondary: #7CB8A5;
 
---qm-bg: #f8faf9;
---qm-surface: #ffffff;
---qm-surface-strong: #eef5f1;
+--qm-bg: #F8FAF9;
+--qm-surface: #FFFFFF;
 --qm-text: #334155;
---qm-text-soft: #5f6f7b;
-```
 
-## Tipografia
+## Tipografía
 
-- Familia principal: `Inter`, `Segoe UI`, sans-serif
-- Titulos: misma familia, pesos 700-800
-- Texto de parrafo: peso 400-500
-- Ritmo: titulares amplios, texto muy legible y aire suficiente
+- Principal: Inter, Arial, Helvetica, sans-serif
+- Títulos: misma familia, peso 700
+- Texto normal: peso 400
 
-## Recursos formales
+## Estilo general
 
-- Bordes redondeados amplios pero discretos
-- Sombras suaves y profundas, nunca duras
-- Tarjetas claras sobre fondo muy limpio
-- Contraste controlado con acentos verdes bien dosificados
-- Composicion editorial con bloques amplios y buena respiracion
+- Limpio
+- Técnico
+- Sanitario
+- Moderno
+- Sin recargar
 
-## Imagenes
+## Bordes
 
-- Evitar imagenes de stock evidentes
-- Priorizar imagen tecnica o sanitaria creible
-- Usar overlays y recortes sobrios
-- La imagen debe acompanar, no dominar
+- Radio principal: 16px
+- Radio tarjetas: 20px
 
-## Lo que si queremos
+## Sombras
 
-- home contundente pero calmada
-- sensacion de producto serio
-- lenguaje visual actual sin artificio
-- continuidad entre portada, noticias y futuras paginas
+- Suaves
+- Nada agresivo
 
-## Lo que no queremos
+## Uso de imágenes
 
-- exceso de efectos
-- colores estridentes
-- iconografia recargada
-- layouts genericos tipo plantilla
-- sensacion de web comercial invasiva
+- Fondos oscuros con overlay
+- Iconos lineales
+- Evitar imágenes demasiado “stock”
