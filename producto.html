@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto | QontrolMed</title>
+    <meta
+        name="description"
+        content="QontrolMed presenta una suite para gestion sanitaria, trabajo de campo en tablet y trazabilidad documental."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages/product.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="shell site-header__inner">
+            <a class="brand" href="index_160319.html" aria-label="Ir a la portada de QontrolMed">
+                <img class="brand__logo" src="assets/img/logo.png" alt="Logotipo de QontrolMed">
+            </a>
+
+            <nav class="site-nav" aria-label="Navegacion principal">
+                <a href="producto.html" aria-current="page">Producto</a>
+                <a href="#suite">Suite</a>
+                <a href="recursos.html">Recursos</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <a class="btn btn--primary site-header__cta" href="mailto:info@qontrolmed.es?subject=Consulta%20sobre%20QontrolMed">
+                Solicitar informacion
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-hero">
+            <div class="shell product-hero__grid">
+                <div class="product-hero__content">
+                    <p class="eyebrow">Producto QontrolMed</p>
+                    <h1>Una suite para coordinar sobremesa, trabajo de campo e informes tecnicos en entornos sanitarios.</h1>
+                    <p class="product-hero__lead">
+                        QontrolMed integra una aplicacion matriz en Windows y dos
+                        aplicaciones offline de campo para tablet. El resultado es
+                        una operativa mas ordenada para preventivos, revisiones IT
+                        en quirofanos y seguimiento documental con base tecnica.
+                    </p>
+
+                    <div class="product-hero__actions">
+                        <a class="btn btn--primary" href="mailto:info@qontrolmed.es?subject=Interes%20en%20QontrolMed">Solicitar informacion</a>
+                        <a class="btn btn--ghost" href="#capturas">Ver material recomendado</a>
+                    </div>
+
+                    <div class="summary-band">
+                        <article class="summary-card">
+                            <p class="summary-card__label">Arquitectura</p>
+                            <p class="summary-card__value">Matriz + apps de campo</p>
+                        </article>
+                        <article class="summary-card">
+                            <p class="summary-card__label">Operacion</p>
+                            <p class="summary-card__value">Offline first con validacion</p>
+                        </article>
+                        <article class="summary-card">
+                            <p class="summary-card__label">Entrega</p>
+                            <p class="summary-card__value">Informes listos para revision</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="product-visual">
+                    <div class="product-visual__desktop">
+                        <img src="assets/img/entrada.png" alt="Vista general de la suite de sobremesa">
+                    </div>
+                    <div class="product-visual__device">
+                        <img src="assets/img/telefono.png" alt="Trabajo de campo en tablet">
+                    </div>
+                    <div class="product-visual__badge">
+                        <span>Flujo operativo</span>
+                        <strong>Importar, trabajar, revisar y cerrar con trazabilidad</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="suite">
+            <div class="shell section-heading">
+                <p class="eyebrow">Suite</p>
+                <h2>Una estructura modular para cubrir la operativa real.</h2>
+                <p>
+                    La propuesta de valor de QontrolMed no depende de una sola
+                    pantalla. Se basa en una suite coordinada que reparte bien el
+                    trabajo entre configuracion de sobremesa, captura en campo y
+                    cierre documental.
+                </p>
+            </div>
+
+            <div class="shell module-grid">
+                <article class="module-card">
+                    <p class="module-card__eyebrow">Aplicacion matriz</p>
+                    <h3>Sobremesa para gestion, maestros y gobierno del dato</h3>
+                    <p>
+                        La aplicacion principal organiza modulos de gestion,
+                        quirofanos y preventivos sobre una base comun de permisos,
+                        usuarios, catalogos y operaciones.
+                    </p>
+                    <ul class="detail-list">
+                        <li>Gestion de centros, equipos, compras y configuracion.</li>
+                        <li>Acceso por permisos a informes, libro y operaciones de importacion o exportacion.</li>
+                        <li>Preparada para trabajo tecnico, revision final e impresion documental.</li>
+                    </ul>
+                </article>
+
+                <article class="module-card">
+                    <p class="module-card__eyebrow">Preventivos en tablet</p>
+                    <h3>Captura offline con SQLite y vuelta controlada a sobremesa</h3>
+                    <p>
+                        La app de preventivos para tablet importa maestros desde la
+                        matriz, permite crear o retomar informes, cerrarlos y
+                        exportar resultados a JSON para su descarga posterior.
+                    </p>
+                    <ul class="detail-list">
+                        <li>Importacion de tipos de equipo, plantillas, equipos, puntos y usuarios.</li>
+                        <li>Conservacion de contexto de campana mediante `id_campana` cuando aplica.</li>
+                        <li>Recuperacion de informes cerrados si se necesita revision o reapertura.</li>
+                    </ul>
+                </article>
+
+                <article class="module-card">
+                    <p class="module-card__eyebrow">Revisiones IT en quirofano</p>
+                    <h3>Ciclo mensual de campo alineado con el modelo de la matriz</h3>
+                    <p>
+                        La app movil de quirofanos trabaja con el mismo contrato de
+                        datos que la aplicacion principal para registrar cabecera,
+                        resultados por punto, observaciones y exportacion final del
+                        ciclo.
+                    </p>
+                    <ul class="detail-list">
+                        <li>Modelo alineado con hospitales, quirofanos, puntos y equipos de medida.</li>
+                        <li>Uso en Windows y distribucion Android mediante APK para pruebas de campo.</li>
+                        <li>Capacidad de reabrir y revisar informes cerrados dentro del propio flujo.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--tinted" id="flujo">
+            <div class="shell split split--product">
+                <div>
+                    <p class="eyebrow">Flujo operativo</p>
+                    <h2>Del dato maestro al informe final sin improvisar el recorrido.</h2>
+                    <p>
+                        El valor comercial de QontrolMed esta en combinar
+                        practicidad de campo y control tecnico. El trabajo no se
+                        deja en una exportacion suelta: se apoya en contratos,
+                        validaciones y estados de informe pensados para no perder
+                        contexto.
+                    </p>
+                </div>
+
+                <div class="workflow">
+                    <article class="workflow-step">
+                        <span class="workflow-step__index">01</span>
+                        <div>
+                            <h3>Preparacion desde matriz</h3>
+                            <p>Se organizan maestros, plantillas, puntos de control y permisos antes de enviar un paquete a campo.</p>
+                        </div>
+                    </article>
+
+                    <article class="workflow-step">
+                        <span class="workflow-step__index">02</span>
+                        <div>
+                            <h3>Importacion validada</h3>
+                            <p>La tablet valida estructura y referencias antes de tocar SQLite para evitar mezclas o corrupciones silenciosas.</p>
+                        </div>
+                    </article>
+
+                    <article class="workflow-step">
+                        <span class="workflow-step__index">03</span>
+                        <div>
+                            <h3>Captura y cierre en campo</h3>
+                            <p>El tecnico guarda avances, completa puntos, registra observaciones y cierra cuando el trabajo queda terminado.</p>
+                        </div>
+                    </article>
+
+                    <article class="workflow-step">
+                        <span class="workflow-step__index">04</span>
+                        <div>
+                            <h3>Exportacion de resultados</h3>
+                            <p>Los informes cerrados se devuelven a sobremesa mediante JSON, manteniendo contexto funcional y trazabilidad.</p>
+                        </div>
+                    </article>
+
+                    <article class="workflow-step">
+                        <span class="workflow-step__index">05</span>
+                        <div>
+                            <h3>Revision y salida documental</h3>
+                            <p>La matriz queda preparada para completar datos finales, imprimir informes y consolidar historico operativo.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="shell section-heading section-heading--narrow">
+                <p class="eyebrow">Capacidades clave</p>
+                <h2>Una propuesta tecnico-comercial apoyada en decisiones de producto claras.</h2>
+            </div>
+
+            <div class="shell capability-grid">
+                <article class="capability-card">
+                    <h3>Offline first</h3>
+                    <p>El trabajo de campo puede continuar sin red estable, con guardado local y exportacion posterior.</p>
+                </article>
+
+                <article class="capability-card">
+                    <h3>Contratos de datos controlados</h3>
+                    <p>Importaciones y exportaciones siguen formatos definidos para reducir friccion y riesgos de sincronizacion.</p>
+                </article>
+
+                <article class="capability-card">
+                    <h3>Trazabilidad de informes</h3>
+                    <p>Estados de trabajo, cierres, reaperturas y contexto de campana quedan reflejados en el propio flujo.</p>
+                </article>
+
+                <article class="capability-card">
+                    <h3>Modelo alineado con la matriz</h3>
+                    <p>La capa movil reutiliza nombres de tablas y conceptos de negocio para no duplicar complejidad innecesaria.</p>
+                </article>
+
+                <article class="capability-card">
+                    <h3>Orientacion a entorno sanitario</h3>
+                    <p>Quirofanos, instalaciones IT, preventivos y equipos tecnicos forman parte del lenguaje natural del producto.</p>
+                </article>
+
+                <article class="capability-card">
+                    <h3>Base preparada para crecer</h3>
+                    <p>La arquitectura actual deja hueco a nuevas capas de analitica, servicios, casos de uso y material comercial.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--compact">
+            <div class="shell document-showcase">
+                <div class="document-showcase__content">
+                    <p class="eyebrow">Resultado documental</p>
+                    <h2>Informes legibles para revision tecnica y entrega profesional.</h2>
+                    <p>
+                        QontrolMed no termina en la captura. La salida debe ser
+                        util para ingenieria, mantenimiento, auditoria interna y
+                        cliente final. Por eso la capa documental tiene peso propio
+                        en la web y merece mostrarse con capturas limpias.
+                    </p>
+
+                    <ul class="detail-list">
+                        <li>Cabeceras claras con identificacion de sala, periodo y equipo.</li>
+                        <li>Bloques de medidas, estados y observaciones faciles de revisar.</li>
+                        <li>Base adecuada para futuras variaciones por cliente o por tipo de informe.</li>
+                    </ul>
+                </div>
+
+                <div class="document-showcase__visual">
+                    <img src="assets/img/informe_quirofano.png" alt="Ejemplo de informe tecnico de quirofano">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="capturas">
+            <div class="shell section-heading">
+                <p class="eyebrow">Capturas recomendadas</p>
+                <h2>Material visual que reforzaria mucho la pagina de producto.</h2>
+                <p>
+                    Ya hay base suficiente para ilustrar la solucion, pero con unas
+                    pocas capturas nuevas la pagina ganaria bastante mas fuerza
+                    comercial y credibilidad visual.
+                </p>
+            </div>
+
+            <div class="shell capture-grid">
+                <article class="capture-card capture-card--accent">
+                    <h3>Capturas ya aprovechables</h3>
+                    <ul class="detail-list">
+                        <li>`entrada.png` para resumir la suite de sobremesa.</li>
+                        <li>`telefono.png` para representar trabajo de campo en tablet.</li>
+                        <li>`informe_quirofano.png` para ensenar salida documental.</li>
+                        <li>`Seguridad_Electrica_en_Quirofanos.png` como apoyo sectorial en recursos o contexto.</li>
+                    </ul>
+                </article>
+
+                <article class="capture-card">
+                    <h3>Dashboard o portada real de sobremesa</h3>
+                    <p>Una captura limpia de la home con los tres modulos visibles, mejor recortada y con menos aire vacio.</p>
+                </article>
+
+                <article class="capture-card">
+                    <h3>Formulario completo de preventivos en tablet</h3>
+                    <p>Conviene una vista mas amplia que muestre cabecera, seleccion de equipo, puntos y accion de cierre, no solo un detalle vertical.</p>
+                </article>
+
+                <article class="capture-card">
+                    <h3>Revision mensual de quirofano en campo</h3>
+                    <p>Una pantalla donde se vean selector de quirofano, periodo, estado del informe y una tabla representativa de puntos.</p>
+                </article>
+
+                <article class="capture-card">
+                    <h3>Importacion o exportacion controlada</h3>
+                    <p>Muy buena para vender robustez: pantalla de importacion validada, conteo de informes cerrados o confirmacion de exportacion.</p>
+                </article>
+
+                <article class="capture-card">
+                    <h3>Configuracion de maestros o plantillas</h3>
+                    <p>Sirve para explicar que la solucion no es solo captura: tambien cubre gobierno del dato y mantenimiento del catalogo.</p>
+                </article>
+
+                <article class="capture-card">
+                    <h3>PDF final con zona de observaciones y firma</h3>
+                    <p>Ideal para transmitir calidad de entrega y continuidad entre trabajo tecnico y documento presentado.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section--compact" id="contacto">
+            <div class="shell contact-callout">
+                <div>
+                    <p class="eyebrow">Contacto</p>
+                    <h2>La web ya puede contar QontrolMed como producto y no solo como presencia corporativa.</h2>
+                    <p>
+                        A partir de aqui es facil sumar nuevas capturas, casos de
+                        uso, sectores, clientes tipo o modulos adicionales sin tener
+                        que replantear la estructura.
+                    </p>
+                </div>
+
+                <div class="contact-callout__actions">
+                    <a class="btn btn--primary btn--wide" href="mailto:info@qontrolmed.es?subject=Consulta%20sobre%20QontrolMed">
+                        info@qontrolmed.es
+                    </a>
+                    <a class="btn btn--ghost btn--wide" href="index_160319.html">
+                        Volver a portada
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="shell site-footer__inner">
+            <div>
+                <img class="site-footer__logo" src="assets/img/logo.png" alt="QontrolMed">
+                <p>Suite sanitaria para gestion, trabajo de campo y documentacion tecnica.</p>
+            </div>
+
+            <div class="site-footer__links">
+                <a href="producto.html">Producto</a>
+                <a href="recursos.html">Recursos</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="mailto:info@qontrolmed.es">info@qontrolmed.es</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
